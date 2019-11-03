@@ -9,13 +9,9 @@ void main() {
   runApp(MyApp());
   if (Platform.isAndroid) {
     ///设置Android状态栏透明
-//    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-//        statusBarColor: Colors.transparent,
-//        statusBarBrightness: Brightness.dark));
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(
-      statusBarColor: Colors.transparent,
-    ));
-   }
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent));
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -28,6 +24,5 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.white,
         ),
         home: SplashPage());
-    ;
   }
 }

@@ -29,8 +29,9 @@ class _AllPageState extends State<AllPage> {
           IconButton(
             icon: Icon(
               Icons.search,
-              color: Colors.black87,
+              color: Colors.grey.shade400,
             ),
+            onPressed: ()=> onClickSearch(),
           )
         ],
       ),
@@ -42,6 +43,10 @@ class _AllPageState extends State<AllPage> {
         ),
       ),
     );
+  }
+
+  onClickSearch() {
+
   }
 }
 
