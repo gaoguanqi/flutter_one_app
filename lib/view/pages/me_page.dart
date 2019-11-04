@@ -21,10 +21,15 @@ class _MePageState extends State<MePage> {
                   size: 18.0,
                 ),
                 onPressed: () => onClickSetting()),
-            Text(
-              '$_title',
-              style: TextStyle(
-                  color: Colors.black45, fontSize: 16.0, letterSpacing: 2.0),
+            Expanded(
+              child: Center(
+                child: Text(
+                  '$_title',
+                  style: TextStyle(
+                      color: Colors.black45, fontSize: 16.0, letterSpacing: 2.0),
+                ),
+              ),
+              flex: 1,
             ),
             IconButton(
                 icon: Icon(
