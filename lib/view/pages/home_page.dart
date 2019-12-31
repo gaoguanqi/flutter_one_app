@@ -43,6 +43,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: _tabPages[_tabIndex],
       bottomNavigationBar: BottomNavigationBar(
+        elevation: 2.0,
+        backgroundColor: Colors.white,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: _getTabIcon(0), title: _getTabTitle(0)),
           BottomNavigationBarItem(icon: _getTabIcon(1), title: _getTabTitle(1)),

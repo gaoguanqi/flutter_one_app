@@ -79,6 +79,9 @@ class _OnePageState extends State<OnePage> with TickerProviderStateMixin {
           ],
         ),
       ),
+      body: ListView(
+
+      ),
     );
   }
 
@@ -91,7 +94,6 @@ class _OnePageState extends State<OnePage> with TickerProviderStateMixin {
     }else{
       _animationController.reverse();
     }
-
   }
 
   void initAnimation() {

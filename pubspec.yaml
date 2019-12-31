@@ -44,6 +44,8 @@ dependencies:
   fluttertoast: ^3.1.3
   # 音乐播放
   audioplayer: ^0.5.2
+  #常用工具类库
+  flustars: ^0.2.6+1
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
@@ -94,5 +96,15 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  #    - assets/images/
   assets:
-    - assets/images/
+    - assets/images/splash_image.jpeg
+    - assets/images/ic_one_selected.png
+    - assets/images/ic_one_normal.png
+    - assets/images/ic_me_selected.png
+    - assets/images/ic_me_normal.png
+    - assets/images/ic_all_selected.png
+    - assets/images/ic_all_normal.png
+    - assets/images/bg_me_know.png
+    - assets/images/bg_me_know.jpeg
+    - assets/images/bg_one_logo.jpg
